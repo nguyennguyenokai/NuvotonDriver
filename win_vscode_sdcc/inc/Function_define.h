@@ -198,9 +198,6 @@ All function define inital setting file for Nuvoton N76E003
 #define		Enable_BIT0_RasingEdge_Trig			PICON|=0x04;PINEN&=0xFE;PIPEN|=0x01
 
 
-/*****************************************************************************************
-* For TIMER VALUE setting is base on " option -> C51 -> Preprocesser Symbols -> Define "
-*****************************************************************************************/
 #ifdef FOSC_110592		// if Fsys = 11.0592MHz 
     #define TIMER_DIV12_VALUE_10us			65536-9			//9*12/11.0592 = 10 uS,  				// Timer divider = 12 for TM0/TM1
     #define TIMER_DIV12_VALUE_1ms				65536-923		//923*12/11.0592 = 1 mS					// Timer divider = 12
