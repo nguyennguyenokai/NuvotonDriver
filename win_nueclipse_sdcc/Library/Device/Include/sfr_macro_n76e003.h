@@ -1,5 +1,5 @@
 
-#elif defined __SDCC__
+#if defined __SDCC__
 #include <stdio.h>
 #include <string.h>
 #include <stdint.h>
