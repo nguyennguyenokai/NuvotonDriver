@@ -1,0 +1,1 @@
+Thư viện này là bsp của nuvoton được rút gọn để phục vụ hướng dẫn và phát triển
